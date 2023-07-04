@@ -1,5 +1,4 @@
-# Python & LeetCode: The Interview Bootcamp
-
+# Python & LeetCode ( Daily Study)
 ## Prerequisites
 * [Python](https://www.python.org)
 
