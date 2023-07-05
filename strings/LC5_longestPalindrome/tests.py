@@ -22,6 +22,8 @@ class StringTests(unittest.TestCase):
         """'a' returns 'a'"""
         self.assertEqual(obj.longestPalindrome("a"), "a")
 
-
+    def test_5 (self):
+        """'babad' returns 'bab'"""
+        self.assertEqual(obj.longestPalindrome("babad"), "bab")
 if __name__ == '__main__':
     unittest.main()
