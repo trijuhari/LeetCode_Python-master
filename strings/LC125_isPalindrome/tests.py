@@ -1,7 +1,9 @@
 import unittest
-from main import Solution
+from main import Solution, Solution_2
 
 obj = Solution()
+# obj = Solution_2()
+ 
 
 
 class StringTests(unittest.TestCase):

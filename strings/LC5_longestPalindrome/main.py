@@ -12,9 +12,7 @@ class Solution:
         for  i in range(len(s)):
             current = self.expand_around_middle(s, i, i)
             in_between = self.expand_around_middle(s,i,i+1)
-            # res = max(res, current, in_between, key= len)
-            # print(current)
-            print(in_between)
+            res = max(res, current, in_between, key= len)
         return res
     def expand_around_middle(self,s,left, right):
         while left >= 0  and right < len(s) and s[left]== s[right]:
